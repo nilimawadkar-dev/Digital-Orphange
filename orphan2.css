@@ -1,0 +1,84 @@
+﻿
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial,Helvetica,sans-serif;
+	background-size: cover;
+	background-image:url('homebg.jpg');
+
+}
+* {
+	box-sizing: border-box;
+}
+
+h2 {
+	padding: 1px;
+	margin: 0;
+	color: red;
+}
+.row {
+	display: contents;
+}
+
+.column {
+	float: left;
+	width: 40%;
+	padding: 10px;
+	height: 250px;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+label {
+	color:#fff;
+	display:inline-block;
+	width: 165px;
+	height: 35px;
+	margin-top: 14px;
+}
+input[type=text,email,radio,date,tel], select ,textarea{
+	width: 60%;
+	padding: 7px 15px;
+	margin: 5px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	background:transparent;
+}
+
+.footer {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: transparent;
+	height: auto;
+	width: 100vw;
+	font-family: Open Sans;
+	padding-top: 40px;
+}
+
+
+.footer input[type=submit] {
+	border-style: none;
+	border-color: inherit;
+	border-width: medium;
+    width: 15%;
+	background-color: red;
+	color: #fff;
+	padding: 7px 14px;
+	margin: 5px 0 5px 30px;
+	border-radius: 4px;
+	cursor: pointer;
+
+}
+	input[type=submit]:hover {
+		background-color:wheat ;
+	}
+
+
